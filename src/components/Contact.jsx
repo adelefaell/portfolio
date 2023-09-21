@@ -43,11 +43,12 @@ const Contact = () => {
 					>
 						<div className="contact-heading">
 							<p>
-								I&apos;m interested in freelance opportunities &#8211;
-								especially ambitious or large projects. However, if you have
-								other request or question, don&apos;t hesitate to reach out.
+								I'm interested in freelance opportunities – especially ambitious
+								or large projects. However, if you have other requests or
+								questions, don't hesitate to reach out.
 							</p>
 						</div>
+
 						<div className="contact-hello">
 							<p>Say Hello</p>
 

@@ -1,5 +1,5 @@
 .contact-box {
-	width: 50ch;
+	max-width: 50ch;
 }
 
 .contact-heading {
@@ -43,10 +43,7 @@
 
 /* Media Queries */
 @media screen and (max-width: 900px) {
-	.contact-box {
-		text-align: center;
-		width: 40ch;
-	}
+
 }
 
 @media screen and (max-width: 550px) {
@@ -56,5 +53,8 @@
 	input,
 	textarea {
 		font-size: 80%;
+		
 	}
+	
+
 }
