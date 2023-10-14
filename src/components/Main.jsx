@@ -6,16 +6,22 @@ import Skills from './Skills';
 import Works from './Works';
 
 const Main = ({ nav, handleNav, closeNav }) => {
-	return (
-		<div onClick={closeNav} className="main">
-			<HeroSection nav={nav} handleNav={handleNav} />
-			<About />
-			<Skills />
-			<Services />
-			<Works />
-			<Contact />
-		</div>
-	);
+  return (
+    <div
+      onClick={closeNav}
+      className="main"
+    >
+      <HeroSection
+        nav={nav}
+        handleNav={handleNav}
+      />
+      <About />
+      <Skills />
+      <Services />
+      <Works />
+      <Contact />
+    </div>
+  );
 };
 
 export default Main;
