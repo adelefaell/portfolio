@@ -5,7 +5,7 @@ import { MyInfo } from '../data/MyInfo';
 
 import { FaCoffee } from 'react-icons/fa';
 import { FaCodepen, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
-import { FiGithub } from 'react-icons/fi';
+import { FiGithub, FiGitlab } from 'react-icons/fi';
 import { SiGmail } from 'react-icons/si';
 
 const Contact = () => {
@@ -85,6 +85,15 @@ const Contact = () => {
 									title="Github"
 								>
 									<FiGithub />
+								</Link>
+
+								<Link
+									className="hello-links"
+									to={MyInfo.gitlab}
+									target="_blank"
+									title="Gitlab"
+								>
+									<FiGitlab />
 								</Link>
 
 								<Link
