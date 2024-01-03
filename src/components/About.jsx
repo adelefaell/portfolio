@@ -52,8 +52,8 @@ const About = () => {
 							whileInView={horizontal}
 							className="about-img"
 						>
-							{/* <img src={ProfileImg} alt="Profile" />  */}
-							<div className="placeholder" />{' '}
+							<img src={ProfileImg} alt="Profile" /> 
+							{/* <div className="placeholder" /> */}
 						</motion.div>
 					</div>
 				</div>

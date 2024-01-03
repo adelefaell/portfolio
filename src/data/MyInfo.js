@@ -7,6 +7,7 @@ export const MyInfo = {
 	last_N: last_name,
 	job: 'Frontend/Web Developer',
 	codepen: 'https://codepen.io/adel-fael',
+	codepenUsername: 'adel-fael',
 	github: 'https://github.com/adel-fael',
 	gitlab: 'https://gitlab.com/adel-fael',
 	linkedin: 'https://www.linkedin.com/in/adel-fael/',
@@ -15,5 +16,5 @@ export const MyInfo = {
 	whatsapp:
 		'https://api.whatsapp.com/send?phone=96176836901&text=Hello, Press Continue to Contact Me.',
 	gmail: 'new19.adel@gmail.com',
-	cv: 'https://drive.google.com/file/d/15W7U818W9ppQ7a9HLuNkQK8iZJ2OzS-6/view'
+	cv: 'https://drive.google.com/file/d/1PeqSMK94sfCL68HYcZk9D5OuFjBa4Os4/view?usp=sharing'
 };

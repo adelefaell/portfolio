@@ -46,8 +46,8 @@ const Navbar = ({ nav, handleNav }) => {
 					className='navbar-container'>
 					<div className='top-details'>
 						<div className='img__cover'>
-							{/* <img src={ProfileImg} alt='Main' className='profile-pic-small' /> */}
-							<div className="img__cover_placeholder"></div>
+							<img src={ProfileImg} alt='Main' className='profile-pic-small' />
+							{/* <div className="img__cover_placeholder"></div> */}
 						</div>
 						<Link
 							activeClass='active'

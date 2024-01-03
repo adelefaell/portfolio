@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FiFolder, FiGithub } from 'react-icons/fi';
 import { IoOpenOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
+import { MyInfo } from '../data/MyInfo';
 import { WorkData } from '../data/WorkData';
 
 const Works = () => {
@@ -90,7 +91,7 @@ const Works = () => {
             height="300"
             style={{ width: '100%' }}
             title="cool header idea"
-            src="https://codepen.io/adel-fael/embed/MWXjGqd?default-tab=html%2Cresult"
+            src={`https://codepen.io/${MyInfo.codepenUsername}/embed/MWXjGqd?default-tab=html%2Cresult`}
             frameborder="no"
             loading="lazy"
             allowtransparency="true"
@@ -100,7 +101,7 @@ const Works = () => {
             <a
               target="_blank"
               rel="noopener"
-              href="https://codepen.io/adel-fael/pen/MWXjGqd"
+              href={`https://codepen.io/${MyInfo.codepenUsername}/pen/MWXjGqd`}
             >
               <span>cool header idea</span>
             </a>{' '}
@@ -108,27 +109,28 @@ const Works = () => {
           <iframe
             height="300"
             style={{ width: '100%', marginTop: '1rem' }}
-            title="Hover-7 Magical"
-            src="https://codepen.io/adel-fael/embed/ExLqvMP?default-tab=html%2Cresult"
+            title="CodePen Home"
+            src={`https://codepen.io/${MyInfo.codepenUsername}/embed/rNKLBMm?default-tab=html%2Cresult`}
             frameborder="no"
             loading="lazy"
             allowtransparency="true"
             allowfullscreen="true"
           />
+
           <button className="uiverse_btn">
             <a
               target="_blank"
               rel="noopener"
-              href="https://codepen.io/adel-fael/pen/ExLqvMP"
+              href={`https://codepen.io/${MyInfo.codepenUsername}/pen/ExLqvMP`}
             >
-              <span>Hover-7 Magical</span>
+              <span>Animated Gradient Text CSS</span>
             </a>{' '}
           </button>
         </motion.div>
 
         <div className="more-link">
           <a
-            href="https://codepen.io/jemimaabu"
+            href={MyInfo.codepen}
             target="_blank"
             rel="noopener"
           >
