@@ -16,5 +16,5 @@ export const MyInfo = {
 	whatsapp:
 		'https://api.whatsapp.com/send?phone=96176836901&text=Hello, Press Continue to Contact Me.',
 	gmail: 'new19.adel@gmail.com',
-	cv: 'https://drive.google.com/file/d/1PeqSMK94sfCL68HYcZk9D5OuFjBa4Os4/view?usp=sharing'
+	cv: 'https://drive.google.com/file/d/1yYo0oy4zlXLuvWxQpO8b8jNpRE5Iw7qC/view?usp=sharing'
 };
