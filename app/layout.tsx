@@ -7,6 +7,7 @@ import { SiteData } from '@/data/SiteData';
 import ScrollProgressBar from './_components/ScrollProgressBar';
 import ScrollTop from './_components/ScrollTop';
 import { LayoutWrapper } from './_components/LayoutWrapper';
+import { Analytics } from '@vercel/analytics/react';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -38,6 +39,7 @@ export default function RootLayout({
           attribute="class"
           defaultTheme={SiteData.theme}
         >
+          <Analytics />
           <ScrollProgressBar />
           <ScrollTop />
           <LayoutWrapper>{children}</LayoutWrapper>
