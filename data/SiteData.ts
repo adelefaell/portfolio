@@ -19,7 +19,7 @@ export const SiteData = {
   whatsapp:
     'https://api.whatsapp.com/send?phone=96171419826&text=Hello, Press Continue to Contact Me.',
   gmail: 'new19.adel@gmail.com',
-  cv: 'https://drive.google.com/file/d/1DJ0huj8e30iUFokhZhbOxbDNCbtnvcxw/view?usp=sharing',
+  cv: 'https://drive.google.com/file/d/1citfDB8qB12JJDV15Amu_z5RqPTPDHAv/view?usp=sharing',
 
   description: 'My personal portfolio where I share my projects and thoughts',
   language: 'en-us',
