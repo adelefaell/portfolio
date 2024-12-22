@@ -15,6 +15,7 @@ const RandomJokePage = async () => {
     headers: {
       Accept: 'application/json',
     },
+    next: { tags: ['randomJoke'] },
   });
   const data: {
     id: string;
