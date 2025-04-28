@@ -11,15 +11,15 @@ export const SiteData = {
   codepen: 'https://codepen.io/adel-fael',
   codepenUsername: 'adel-fael',
 
-  github: 'https://github.com/adel-fael',
-  gitlab: 'https://gitlab.com/adel-fael',
+  github: 'https://github.com/adell-fael',
+  gitlab: 'https://gitlab.com/adell-fael',
   linkedin: 'https://www.linkedin.com/in/adel-fael/',
   buymeacoffee: 'https://www.buymeacoffee.com/adellfaell',
   messenger: 'https://www.messenger.com/t/100006178831940',
   whatsapp:
     'https://api.whatsapp.com/send?phone=96171419826&text=Hello, Press Continue to Contact Me.',
-  gmail: 'new19.adel@gmail.com',
-  cv: 'https://drive.google.com/file/d/1citfDB8qB12JJDV15Amu_z5RqPTPDHAv/view?usp=sharing',
+  gmail: 'adel0fael@gmail.com',
+  cv: 'https://drive.google.com/file/d/1otVg7ITcP475C4kySiBItcq3YoQ2hk9P/view?usp=sharing',
 
   description: 'My personal portfolio where I share my projects and thoughts',
   language: 'en-us',
