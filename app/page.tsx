@@ -11,7 +11,11 @@ export const metadata: Metadata = {
   description: SiteData.description,
 };
 
-export default function Home() {
+/**
+ * Home page component displaying the main introduction and navigation links.
+ * @returns {JSX.Element} The rendered home page.
+ */
+export default function Home(): JSX.Element {
   return (
     <div className="mt-12 mb-12 flex flex-col items-center gap-x-12 xl:flex-row">
       <div className="pt-6">

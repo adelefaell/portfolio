@@ -29,7 +29,11 @@ import { usePathname } from 'next/navigation';
 import { navigation } from '@/app/_types/navigation';
 import { Links } from '../_types/Links';
 
-export default function DropMenu() {
+/**
+ * Drop-down menu for site navigation, with sound and animated transitions.
+ * @returns {JSX.Element} The rendered drop-down menu component.
+ */
+export default function DropMenu(): JSX.Element {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleIcon = () => {
