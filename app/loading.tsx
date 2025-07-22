@@ -1,6 +1,10 @@
 import LoadingSpinner from '@/app/_components/LoadingSpinner';
 
-export default function Loading() {
+/**
+ * Global loading indicator for the app.
+ * @returns {JSX.Element} The rendered loading spinner.
+ */
+export default function Loading(): JSX.Element {
   return (
     <div className="flex items-center justify-center h-[50dvh]">
       <LoadingSpinner />

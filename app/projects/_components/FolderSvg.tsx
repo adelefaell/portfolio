@@ -1,6 +1,10 @@
 import React from 'react';
 
-export const FolderSvg = () => {
+/**
+ * SVG icon representing a folder, used in project cards.
+ * @returns {JSX.Element} The rendered folder SVG icon.
+ */
+export const FolderSvg = (): JSX.Element => {
   return (
     <svg
       className="h-10 w-10 text-primary-color-500 dark:text-primary-color-dark-500"

@@ -1,10 +1,20 @@
 import Link from "next/link";
 
-export const ContactLink: React.FC<{
+/**
+ * Props for the ContactLink component.
+ */
+interface ContactLinkProps {
   title: string;
   href: string;
-  preTitle?:string;
-}> = ({ title, href, preTitle }) => {
+  preTitle?: string;
+}
+
+/**
+ * Renders a contact link with optional pre-title and styling.
+ * @param {ContactLinkProps} props - The contact link details to display.
+ * @returns {JSX.Element} The rendered contact link.
+ */
+export const ContactLink: React.FC<ContactLinkProps> = ({ title, href, preTitle }): JSX.Element => {
   return (
     <Link
       href={href}
