@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   description: 'Page Not Found',
 };
 
-export default function NotFound() {
+/**
+ * 404 Not Found page component.
+ * @returns {JSX.Element} The rendered not found page.
+ */
+export default function NotFound(): JSX.Element {
   return (
     <>
       <div className="flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6">

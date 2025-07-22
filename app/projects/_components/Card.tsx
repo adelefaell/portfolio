@@ -1,6 +1,9 @@
 import { SocialIcons } from '@/app/_components/SocialIcons';
 import { FolderSvg } from './FolderSvg';
 
+/**
+ * Props for the Card component.
+ */
 interface CardProps {
   title: string;
   description: string;
@@ -9,13 +12,18 @@ interface CardProps {
   tech: string[];
 }
 
+/**
+ * Renders a project card with title, description, links, and tech stack.
+ * @param {CardProps} props - The project details to display.
+ * @returns {JSX.Element} The rendered card component.
+ */
 export const Card: React.FC<CardProps> = ({
   title,
   description,
   href,
   github,
   tech,
-}) => (
+}): JSX.Element => (
   <div
     className="md p-4 md:w-1/2"
     style={{ maxWidth: '544px' }}

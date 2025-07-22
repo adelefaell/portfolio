@@ -4,7 +4,11 @@ import { SiteData } from '@/data/SiteData';
 import Link from 'next/link';
 import { Links } from '../_types/Links';
 
-export default function Footer() {
+/**
+ * Footer component displaying copyright, weekday, and contact link.
+ * @returns {JSX.Element} The rendered footer component.
+ */
+export default function Footer(): JSX.Element {
   const date = new Date();
   return (
     <footer>

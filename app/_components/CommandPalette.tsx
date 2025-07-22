@@ -19,7 +19,11 @@ import useSound from 'use-sound';
 import { navigation } from '@/app/_types/navigation';
 import { usePathname } from 'next/navigation';
 
-export default function CommandPalette() {
+/**
+ * Command palette component for quick navigation using keyboard shortcuts and search.
+ * @returns {JSX.Element} The rendered command palette component.
+ */
+export default function CommandPalette(): JSX.Element {
   const pathname = usePathname();
   const router = useRouter();
 

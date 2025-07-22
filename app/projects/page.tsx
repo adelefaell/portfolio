@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   description: 'A list of projects I have built',
 };
 
-export default function Projects() {
+/**
+ * Projects page component displaying a list of projects.
+ * @returns {JSX.Element} The rendered projects page.
+ */
+export default function Projects(): JSX.Element {
   return (
     <>
       <div className="mx-auto max-w-6xl divide-y divide-gray-400">

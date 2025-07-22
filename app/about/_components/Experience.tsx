@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+/**
+ * Props for the Experience component.
+ */
 type ExperienceProps = {
   title: string;
   company: string;
@@ -10,7 +13,13 @@ type ExperienceProps = {
   text2: string;
   text3: string;
 };
-export const Experience: React.FC<ExperienceProps> = (props) => {
+
+/**
+ * Renders a single experience entry with title, company, location, and details.
+ * @param {ExperienceProps} props - The experience details to display.
+ * @returns {JSX.Element} The rendered experience component.
+ */
+export const Experience: React.FC<ExperienceProps> = (props): JSX.Element => {
   const { title, company, location, range, url, text1, text2, text3 } = props;
   return (
     <div className="my-3">

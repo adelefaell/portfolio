@@ -1,5 +1,8 @@
 import Link from 'next/link';
 
+/**
+ * Props for the RecommendCard component.
+ */
 type RecommendCardProps = {
   title: string;
   description: string;
@@ -7,7 +10,12 @@ type RecommendCardProps = {
   tags: string[];
 };
 
-export const RecommendCard: React.FC<RecommendCardProps> = (props) => {
+/**
+ * Renders a recommendation card with title, description, and tags.
+ * @param {RecommendCardProps} props - The recommendation details to display.
+ * @returns {JSX.Element} The rendered recommendation card.
+ */
+export const RecommendCard: React.FC<RecommendCardProps> = (props): JSX.Element => {
   const { title, description, href, tags } = props;
 
   if (href && href.length > 0) {

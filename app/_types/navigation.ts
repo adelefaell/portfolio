@@ -1,5 +1,8 @@
 import { Links } from './Links';
 
+/**
+ * Navigation links used throughout the application.
+ */
 export const navigation = [
   { showOnHeader: true, title: 'Home', href: Links.HomePage() },
 

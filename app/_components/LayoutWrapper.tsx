@@ -15,9 +15,21 @@ import { AppProgressBar } from 'next-nprogress-bar';
 
 // import Logo from '@/data/logo.svg'
 
-export const LayoutWrapper: React.FC<{ children: React.ReactNode }> = ({
+/**
+ * Props for the LayoutWrapper component.
+ */
+interface LayoutWrapperProps {
+  children: React.ReactNode;
+}
+
+/**
+ * Layout wrapper for the app, including header, navigation, and footer.
+ * @param {LayoutWrapperProps} props - The children to render inside the layout.
+ * @returns {JSX.Element} The rendered layout wrapper.
+ */
+export const LayoutWrapper: React.FC<LayoutWrapperProps> = ({
   children,
-}) => {
+}): JSX.Element => {
   const pathname = usePathname();
   return (
     <SectionContainer>

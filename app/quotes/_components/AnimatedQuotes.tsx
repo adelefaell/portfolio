@@ -4,11 +4,19 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { Quote } from '../page';
 
+/**
+ * Props for the AnimatedQuotes component.
+ */
 type AnimatedQuotesProps = {
   quotes: Quote[];
 };
 
-export const AnimatedQuotes: React.FC<AnimatedQuotesProps> = ({ quotes }) => {
+/**
+ * Renders a list of animated quotes.
+ * @param {AnimatedQuotesProps} props - The quotes to display.
+ * @returns {JSX.Element} The rendered animated quotes component.
+ */
+export const AnimatedQuotes: React.FC<AnimatedQuotesProps> = ({ quotes }): JSX.Element => {
   return (
     <motion.div
       initial="hidden"

@@ -2,7 +2,11 @@
 
 import { revalidateTag } from 'next/cache';
 
-export async function randomJoke() {
+/**
+ * Revalidates the 'randomJoke' cache tag to ensure fresh data is fetched.
+ * @returns {Promise<void>} Resolves when the cache has been revalidated.
+ */
+export async function randomJoke(): Promise<void> {
   // Invalidate all data tagged with 'randomJoke' in the cache
   revalidateTag('randomJoke');
 }

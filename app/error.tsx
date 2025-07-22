@@ -1,14 +1,15 @@
-'use client'; // Error boundaries must be Client Components
-
-import { useEffect } from 'react';
-
+/**
+ * Error boundary component for catching and displaying errors in the app.
+ * @param {{ error: Error & { digest?: string }; reset: () => void }} props - Error object and reset handler.
+ * @returns {JSX.Element} The rendered error UI.
+ */
 export default function Error({
   error,
   reset,
 }: {
   error: Error & { digest?: string };
   reset: () => void;
-}) {
+}): JSX.Element {
   useEffect(() => {
     // Log the error to an error reporting service
     console.error(error);

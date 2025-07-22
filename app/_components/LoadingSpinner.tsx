@@ -1,4 +1,8 @@
-export default function LoadingSpinner() {
+/**
+ * Animated loading spinner SVG for indicating loading state.
+ * @returns {JSX.Element} The rendered loading spinner SVG.
+ */
+export default function LoadingSpinner(): JSX.Element {
   return (
     <svg
       className="h-5 w-5 animate-spin text-gray-900 dark:text-gray-100"
