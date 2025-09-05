@@ -1,4 +1,5 @@
 "use client"
+import { useEffect } from "react" 
 
 /**
  * Error boundary component for catching and displaying errors in the app.
