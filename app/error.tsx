@@ -1,3 +1,5 @@
+"use client"
+
 /**
  * Error boundary component for catching and displaying errors in the app.
  * @param {{ error: Error & { digest?: string }; reset: () => void }} props - Error object and reset handler.
